@@ -1,108 +1,136 @@
-body {
-  font-family: PT Sans;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 24px;
-  
-  text-transform: uppercase;
-  
+body
+{
+    font-family: PT Sans;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+
+    text-transform: uppercase;
 }
 
-a{
-  text-decoration: none;
+a
+{
+    text-decoration: none;
 }
 
-.main-header {
-  background-color: black;
+.main-header
+{
+    background-color: black;
 }
 
-.main-footer {
-  background-color: #232323;
-  color: white;
+.main-footer
+{
+    color: white;
+    background-color: #232323;
 }
 
-.main-header a {
-  color: white;
+.main-header a
+{
+    color: white;
 }
 
-.main-navigation, .main-header li, .user-block {
-  display: inline-block;
+.main-navigation,
+.main-header li,
+.user-block
+{
+    display: inline-block;
 }
 
-.index-logo {
-  background-color: black;
+.index-logo
+{
+    background-color: black;
 }
 
-.features {
-  background-color: black;
-  color: white;
+.features
+{
+    color: white;
+    background-color: black;
 }
 
-.index-content {
-  color: black;
-  background-color: white;
+.index-content
+{
+    color: black;
+    background-color: white;
 }
 
-h2, .features-name {
-  font-size: 30px;
+h2,
+.features-name
+{
+    font-size: 30px;
 }
 
-h3 {
-  font-size: 24px;
+h3
+{
+    font-size: 24px;
 }
 
-time {
-  font-weight: normal;
-  text-transform: none;
+time
+{
+    font-weight: normal;
+
+    text-transform: none;
 }
 
-.btn {
-  color: white;
+.btn
+{
+    color: white;
 }
 
-.shop-content {
-  background-color: white;
-  color: black;
+.shop-content
+{
+    color: black;
+    background-color: white;
 }
 
-.paginator li {
-  display: inline-block;
-  background-color: black;
+.paginator li
+{
+    display: inline-block;
 
+    background-color: black;
 }
 
-.paginator li a {
-  color: white;
+.paginator li a
+{
+    color: white;
 }
 
-.paginator .active {
-  background-color: white;
-  color: black;
+.paginator .active
+{
+    color: black;
+    background-color: white;
 }
 
-.footer-contacts a {
-  color: white;
-  text-decoration: underline;
+.footer-contacts a
+{
+    text-decoration: underline;
+
+    color: white;
 }
 
-.product-type {
-  font-weight: bold;
-  text-transform: none;
-  font-family: PT Sans;
+.product-type
+{
+    font-family: PT Sans;
+    font-weight: bold;
+
+    text-transform: none;
 }
 
-.product-type {
-  font-weight: bold;
+.product-type
+{
+    font-weight: bold;
 }
 
-.current-crumb {
-  color: #aba9a7;
+.current-crumb
+{
+    color: #aba9a7;
 }
 
-.vendor {
-  color: #aba9a7;
+.vendor
+{
+    color: #aba9a7;
 }
 
-.breadcrumbs a {
-  color: black;
+.breadcrumbs a
+{
+    color: black;
 }
