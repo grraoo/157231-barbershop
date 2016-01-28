@@ -1,0 +1,108 @@
+body {
+  font-family: PT Sans;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  
+  text-transform: uppercase;
+  
+}
+
+a{
+  text-decoration: none;
+}
+
+.main-header {
+  background-color: black;
+}
+
+.main-footer {
+  background-color: #232323;
+  color: white;
+}
+
+.main-header a {
+  color: white;
+}
+
+.main-navigation, .main-header li, .user-block {
+  display: inline-block;
+}
+
+.index-logo {
+  background-color: black;
+}
+
+.features {
+  background-color: black;
+  color: white;
+}
+
+.index-content {
+  color: black;
+  background-color: white;
+}
+
+h2, .features-name {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+time {
+  font-weight: normal;
+  text-transform: none;
+}
+
+.btn {
+  color: white;
+}
+
+.shop-content {
+  background-color: white;
+  color: black;
+}
+
+.paginator li {
+  display: inline-block;
+  background-color: black;
+
+}
+
+.paginator li a {
+  color: white;
+}
+
+.paginator .active {
+  background-color: white;
+  color: black;
+}
+
+.footer-contacts a {
+  color: white;
+  text-decoration: underline;
+}
+
+.product-type {
+  font-weight: bold;
+  text-transform: none;
+  font-family: PT Sans;
+}
+
+.product-type {
+  font-weight: bold;
+}
+
+.current-crumb {
+  color: #aba9a7;
+}
+
+.vendor {
+  color: #aba9a7;
+}
+
+.breadcrumbs a {
+  color: black;
+}
