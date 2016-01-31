@@ -9,6 +9,8 @@ body
   text-transform: uppercase;
 
   background: #000 url(../img/bg-tint.jpg) no-repeat 50% 3px;
+
+  margin: 0;
 }
 
 a
