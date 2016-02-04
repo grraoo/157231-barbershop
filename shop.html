@@ -10,7 +10,6 @@
 			<div class="container clearfix">
 			<a class="go-index" href="index.html"><img src="img/logo-header.png"></a>
 				<nav class="main-navigation">
-					
 					<ul>
 						<li><a href="#">Информация</a></li>
 						<li><a href="#">Новости</a></li>
@@ -27,7 +26,7 @@
 		<main class="container-pages">
 			<header class="inner-header">
 				<h1>Средства для ухода</h1>
-				<ul class="breadcrumbs">
+				<ul class="breadcrumbs clearfix">
 					<li><a href="#">Главная</a></li>
 					<li><a href="#">Магазин</a></li>
 					<li>Средства для ухода</li>
@@ -55,18 +54,20 @@
 				<fieldset class="item-groups">
 					<legend>Группы товаров</legend>
 					<ul>
-						<li><input id="shave" type="radio">
+						<li><input id="shave" type="radio" name="item-group">
 						<label for="shave">Бритвенные принадлежности</label></li>
-						<li><input id="stuff" type="radio" checked>
+						<li><input id="stuff" type="radio" name="item-group" checked>
 						<label for="stuff">Средства для ухода</label></li>
-						<li><input id="access" type="radio">
+						<li><input id="access" type="radio" name="item-group">
 						<label for="access">Аксессуары</label></li>
 					</ul>
 				</fieldset>
 				<a class="btn" href="#">Показать</a>
 			</form>
 			<div class="catalog">
-				<article class="catalog-item">
+				<div class="catalog-content clearfix">
+					<div class="row clearfix">
+					<article class="catalog-item">
 					<a href="item.html">
 						<img src="img/goods-boc-trip.png" width="220" height="165" alt="фото">
 						<div class="product-type">Набор для путешествий</div>
@@ -76,8 +77,8 @@
 						<span class="item-price">2&nbsp;900&nbsp;руб.</span>
 						<a class="btn" href="#">Купить</a>
 					</div>
-				</article>
-				<article class="catalog-item">
+					</article>
+					<article class="catalog-item">
 					<a href="item.html">
 						<img src="img/goods-boc-cond.png" width="220" height="165" alt="фото">
 						<div class="product-type">Увлажняющий кондиционер</div>
@@ -87,8 +88,8 @@
 						<span class="item-price">750&nbsp;руб.</span>
 						<a class="btn" href="#">Купить</a>
 					</div>
-				</article>
-				<article class="catalog-item">
+					</article>
+					<article class="catalog-item">
 					<a href="item.html">
 						<img src="img/goods-sa-gel.png" width="220" height="165" alt="фото">
 						<div class="product-type">Гель для волос</div>
@@ -98,8 +99,10 @@
 						<span class="item-price">2900&nbsp;руб.</span>
 						<a class="btn" href="#">Купить</a>
 					</div>
-				</article>
-				<article class="catalog-item">
+					</article>
+					</div>
+					<div class="row clearfix">
+					<article class="catalog-item">
 					<a href="item.html">
 						<img src="img/goods-ac-clay.jpg" width="220" height="165" alt="фото">
 						<div class="product-type">Глина для укладки волос</div>
@@ -109,8 +112,8 @@
 						<span class="item-price">500&nbsp;руб.</span>
 						<a class="btn" href="#">Купить</a>
 					</div>
-				</article>
-				<article class="catalog-item">
+					</article>
+					<article class="catalog-item">
 					<a href="item.html">
 						<img src="img/good-ac-gel.png" width="220" height="165" alt="фото">
 						<div class="product-type">Гель для волос</div>
@@ -120,8 +123,8 @@
 						<span class="item-price">300&nbsp;руб.</span>
 						<a class="btn" href="#">Купить</a>
 					</div>
-				</article>
-				<article class="catalog-item">
+					</article>
+					<article class="catalog-item">
 					<a href="item.html">
 						<img src="img/goods-boc-shave.png" width="220" height="165" alt="фото">
 						<div class="product-type">Набор для бритья</div>
@@ -131,15 +134,17 @@
 						<span class="item-price">3&nbsp;900&nbsp;руб.</span>
 						<a class="btn" href="#">Купить</a>
 					</div>
-				</article>
-				<nav class="paginator">
+					</article>
+					</div>
+				</div>
+				<div class="paginator clearfix">
 					<ul>
 						<li><a class="btn" href="#">1</a></li>
 						<li><a class="btn active" href="#">2</a></li>
 						<li><a class="btn" href="#">3</a></li>
 						<li><a class="btn" href="#">4</a></li>
 					</ul>
-				</nav>
+				</div>
 			</div>
 			</section>
 		</main>
@@ -152,13 +157,13 @@
           Телефон: +7 (812) 666-02-66
         </section>
         <section class="footer-social">
-          <p>Давайте дружить!</p>
+          <div>Давайте дружить!</div>
           <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
           <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
           <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
         </section>
         <section class="footer-copyright">
-          <p>Разработано:</p>
+          <div>Разработано:</div>
           <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
         </section>
       </div>
